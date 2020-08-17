@@ -14,9 +14,9 @@ export const NavigationBar = () => (
   <Navbar.Toggle aria-controls="basic-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav">
   <Nav className= "ml-auto">
-  <Nav.Item><Nav.Link href="/react-site/"> Home </Nav.Link> </Nav.Item>
-<Nav.Item><Nav.Link href="/react-site/street"> Street </Nav.Link> </Nav.Item>
-<Nav.Item><Nav.Link href="/react-site/travel"> Travel </Nav.Link> </Nav.Item>
+  <Nav.Item><Nav.Link href="./react-site/"> Home </Nav.Link> </Nav.Item>
+<Nav.Item><Nav.Link href="./react-site/street"> Street </Nav.Link> </Nav.Item>
+<Nav.Item><Nav.Link href="./react-site/travel"> Travel </Nav.Link> </Nav.Item>
 <Nav.Item><Nav.Link href="/react-site/weddings"> Weddings </Nav.Link> </Nav.Item>
 <Nav.Item><Nav.Link href="https://www.instagram.com/rob_mcconkey/?hl=en" target="_blank"> Instagram </Nav.Link> </Nav.Item>
 <NavDropdown title="Blog" id="basic-nav-dropdown">

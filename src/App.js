@@ -22,7 +22,7 @@ import { HashRouter, Link } from "react-router-dom";
 class App extends Component {
   render () {
     return (
-      <React.Fragment>
+
       <HashRouter basename={process.env.PUBLIC_URL}>
       <NavigationBar/>
       <Jumbotron/>
@@ -37,7 +37,7 @@ class App extends Component {
           </Switch>
         </Router>
         </HashRouter>
-      </React.Fragment>
+
     )
   }
 }

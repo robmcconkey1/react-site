@@ -8,7 +8,7 @@ const Styles = styled.div`
 background: url(${travel61}) no-repeat fixed bottom;
 background-size: cover;
 color: #F0F8FF;
-height: 200px;
+height: 300px;
 position: relative;
 z-index: -5;
 }

@@ -3,6 +3,9 @@ import Carousel from 'react-bootstrap/Carousel'
 import image1 from './assets/1.jpg'
 import image2 from './assets/resize2.1.jpg'
 import image3 from './assets/travel4-4.jpg'
+import image4 from './assets/resize1.jpg'
+import image5 from './assets/resize2.2.jpg'
+import image6 from './assets/resize3.1.jpg'
 import './App.css'
 
 function Slider() {
@@ -11,7 +14,7 @@ function Slider() {
         <Carousel.Item>
           <img
             className=""
-            src={image1}
+            src={image4}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -22,7 +25,7 @@ function Slider() {
         <Carousel.Item>
           <img
             className=""
-              src={image2}
+              src={image5}
             alt="second slide"
           />
 
@@ -34,7 +37,7 @@ function Slider() {
         <Carousel.Item>
           <img
             className=""
-              src={image3}
+              src={image6}
             alt="Third slide"
           />
 

@@ -6,6 +6,6 @@ export const Street = () => (
 
 
 
-<p> Hey thcere - welcome to the street page </p>
+<p> Hey there - welcome to the street page </p>
  </div>
 )

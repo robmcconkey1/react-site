@@ -28,9 +28,10 @@ class App extends Component {
 <Slider/>
         <Router>
           <Switch>
-            <Route exact path="/" component ={Home} />
-            <Route exact path="/street" component ={Street} />
-            <Route exact path="/travel" component ={Travel} />
+            <Route exact path="/react-site/home" component ={Home} />
+            <Route exact path="/react-site/street" component ={Street} />
+            <Route exact path="/react-site/travel" component ={Travel} />
+            <h1> hello world </h1>
           </Switch>
         </Router>
       </React.Fragment>

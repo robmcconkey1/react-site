@@ -5,13 +5,17 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import * as serviceWorker from './serviceWorker';
+import { HashRouter, Route, Link } from 'react-router-dom'
+
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <App />
-
+</HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

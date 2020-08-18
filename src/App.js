@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Navbars from './components/navbar';
+
 import Slideshow from './components/slideshow'
 import WelcomeCopy from './components/robintro'
 import './App.css'

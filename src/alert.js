@@ -11,4 +11,29 @@ function Example() {
     </Alert>
   )
 }
-export default Alert;
+
+
+  console.log(Street)
+  class App extends Component {
+
+  render () {
+    return (
+      <React.Fragment>
+      <HashRouter basename={process.env.PUBLIC_URL}>
+      <NavigationBar/>
+      <Jumbotron/>
+<Example/>
+<Slider/>
+        <Router>
+          <Switch>
+            <Route path="/home.js" component ={Home} />
+            <Route path="/street"> <Street/> </Route>
+            <Route path="/travel" component ={Travel} />
+            </Switch>
+
+        </Router>
+        </HashRouter>
+      </React.Fragment>
+    )
+  }
+}

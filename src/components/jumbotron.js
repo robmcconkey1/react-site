@@ -1,14 +1,14 @@
 import React from 'react';
 import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
 import styled from 'styled-components';
-import travel61 from '../components/travel61.jpg';
+import london1 from '../components/websitelondon3.jpg';
 
 const Styles = styled.div`
 .Jumbo {
-background: url(${travel61}) no-repeat fixed bottom;
+background: url(${london1}) no-repeat fixed bottom;
 background-size: cover;
 color: #F0F8FF;
-height: 300px;
+height: 200px;
 position: relative;
 z-index: -5;
 }

@@ -1,5 +1,6 @@
-import React from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import React, { Component } from 'react';
+
+import {Carousel} from 'react-bootstrap'
 import image4 from './assets/resize1.jpg'
 import image5 from './assets/resize2.2.jpg'
 import image6 from './assets/resize3.1.jpg'
@@ -16,7 +17,6 @@ function Slider() {
           />
           <Carousel.Caption>
 
-            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,7 +28,6 @@ function Slider() {
 
           <Carousel.Caption>
 
-            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

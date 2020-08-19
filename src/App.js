@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import Slideshow from './components/slideshow'
 import WelcomeCopy from './components/robintro'
 import './App.css'
@@ -10,9 +9,8 @@ import {Home} from './home'
 import {Street} from './street'
 import {Travel} from './travel'
 import {Weddings} from './weddings'
-import {BrowserRouter, Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import {Jumbotron} from './components/jumbotron'
-
 import Slider from './car'
 
 

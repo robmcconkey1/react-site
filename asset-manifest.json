@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-site/static/css/main.f42491f4.chunk.css",
-    "main.js": "/react-site/static/js/main.dc7911fd.chunk.js",
-    "main.js.map": "/react-site/static/js/main.dc7911fd.chunk.js.map",
-    "runtime-main.js": "/react-site/static/js/runtime-main.4eed6354.js",
-    "runtime-main.js.map": "/react-site/static/js/runtime-main.4eed6354.js.map",
-    "static/css/2.11829350.chunk.css": "/react-site/static/css/2.11829350.chunk.css",
-    "static/js/2.8af1102c.chunk.js": "/react-site/static/js/2.8af1102c.chunk.js",
-    "static/js/2.8af1102c.chunk.js.map": "/react-site/static/js/2.8af1102c.chunk.js.map",
-    "index.html": "/react-site/index.html",
-    "precache-manifest.ad4c6cbfdc61820d3bffb072c3c4bc24.js": "/react-site/precache-manifest.ad4c6cbfdc61820d3bffb072c3c4bc24.js",
-    "service-worker.js": "/react-site/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/react-site/static/css/2.11829350.chunk.css.map",
-    "static/css/main.f42491f4.chunk.css.map": "/react-site/static/css/main.f42491f4.chunk.css.map",
-    "static/js/2.8af1102c.chunk.js.LICENSE.txt": "/react-site/static/js/2.8af1102c.chunk.js.LICENSE.txt",
-    "static/media/resize1.jpg": "/react-site/static/media/resize1.c63351e0.jpg",
-    "static/media/resize2.2.jpg": "/react-site/static/media/resize2.2.090f4594.jpg",
-    "static/media/resize3.1.jpg": "/react-site/static/media/resize3.1.83ab997c.jpg",
-    "static/media/websitelondon3.jpg": "/react-site/static/media/websitelondon3.3672edfe.jpg"
+    "main.css": "/static/css/main.f42491f4.chunk.css",
+    "main.js": "/static/js/main.45570656.chunk.js",
+    "main.js.map": "/static/js/main.45570656.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.40fd9fda.js",
+    "runtime-main.js.map": "/static/js/runtime-main.40fd9fda.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.3a809495.chunk.js": "/static/js/2.3a809495.chunk.js",
+    "static/js/2.3a809495.chunk.js.map": "/static/js/2.3a809495.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.286c66a6b6e5522208cce09a0161acb1.js": "/precache-manifest.286c66a6b6e5522208cce09a0161acb1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.f42491f4.chunk.css.map": "/static/css/main.f42491f4.chunk.css.map",
+    "static/js/2.3a809495.chunk.js.LICENSE.txt": "/static/js/2.3a809495.chunk.js.LICENSE.txt",
+    "static/media/resize1.jpg": "/static/media/resize1.c63351e0.jpg",
+    "static/media/resize2.2.jpg": "/static/media/resize2.2.090f4594.jpg",
+    "static/media/resize3.1.jpg": "/static/media/resize3.1.83ab997c.jpg",
+    "static/media/websitelondon3.jpg": "/static/media/websitelondon3.3672edfe.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4eed6354.js",
+    "static/js/runtime-main.40fd9fda.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.8af1102c.chunk.js",
+    "static/js/2.3a809495.chunk.js",
     "static/css/main.f42491f4.chunk.css",
-    "static/js/main.dc7911fd.chunk.js"
+    "static/js/main.45570656.chunk.js"
   ]
 }

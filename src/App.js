@@ -30,6 +30,8 @@ import Slider from './car'
 <Slider/>
         <BrowserRouter>
           <Switch>
+
+
             <Route path="/home" component ={Home} />
             <Route path="/street" component ={Street} />
             <Route path="/travel" component ={Travel} />
@@ -42,6 +44,10 @@ import Slider from './car'
   }
 }
 
-
+function Homepagecopy() {
+    return(
+<a> hello world </a>
+    )
+  }
 
 export default App;

@@ -6,6 +6,6 @@ export const Travel = () => (
 
    </div>
 
-<h2> Hey there - welcome to the travel page </h2>
+<h2> Hey there - welcome to the travel page. Enjoy the photos</h2>
  </div>
 )

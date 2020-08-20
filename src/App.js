@@ -11,7 +11,10 @@ import {Travel} from './travel'
 import {Weddings} from './weddings'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import {Jumbotron} from './components/jumbotron'
-import Slider from './car'
+import SliderHome from './car'
+import SliderTravel from './slidertravel'
+
+
 
 
 
@@ -27,7 +30,9 @@ import Slider from './car'
       <NavigationBar/>
       <Jumbotron/>
 
-<Slider/>
+
+<SliderHome/>
+
         <BrowserRouter>
           <Switch>
 
@@ -44,10 +49,6 @@ import Slider from './car'
   }
 }
 
-function Homepagecopy() {
-    return(
-<a> hello world </a>
-    )
-  }
+
 
 export default App;

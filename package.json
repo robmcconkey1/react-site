@@ -11,6 +11,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "file:react-bootstrap",
     "react-dom": "^16.13.1",
+    "react-grid-gallery": "^0.5.5",
     "react-router-dom": "file:react-router-dom",
     "react-scripts": "3.4.3",
     "reactstrap": "^8.5.1",

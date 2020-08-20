@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 
 import {Carousel} from 'react-bootstrap'
-import image4 from './assets/resize1.jpg'
-import image5 from './assets/resize2.2.jpg'
-import image6 from './assets/resize3.1.jpg'
+import travelj from './japancrossing1.jpg'
 import './App.css'
 
-function SliderHome() {
+function SliderTravel() {
     return(
       <Carousel>
         <Carousel.Item>
           <img
             className=""
-            src={image4}
+            src={travelj}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -22,7 +20,7 @@ function SliderHome() {
         <Carousel.Item>
           <img
             className=""
-              src={image5}
+              src={travelj}
             alt="second slide"
           />
 
@@ -33,7 +31,7 @@ function SliderHome() {
         <Carousel.Item>
           <img
             className=""
-              src={image6}
+              src={travelj}
             alt="Third slide"
           />
 
@@ -44,4 +42,4 @@ function SliderHome() {
       </Carousel>
 )
 }
-export default SliderHome;
+export default SliderTravel;

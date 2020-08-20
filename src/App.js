@@ -32,9 +32,9 @@ import Slider from './car'
           <Switch>
 
 
-            <Route path="/home" component ={Home} />
-            <Route path="/street" component ={Street} />
-            <Route path="/travel" component ={Travel} />
+            <Route exact path="/" component ={Home} />
+            <Route exact path="/street" component ={Street} />
+            <Route exact path="/travel" component ={Travel} />
             </Switch>
 
         </BrowserRouter>

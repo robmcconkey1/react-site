@@ -13,6 +13,8 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import {Jumbotron} from './components/jumbotron'
 import SliderHome from './car'
 import SliderTravel from './slidertravel'
+import SliderHomepage from './sliderhomepage.js'
+import SliderStreet from './sliderstreet.js'
 
 
 
@@ -29,9 +31,6 @@ import SliderTravel from './slidertravel'
 <Layout>
       <NavigationBar/>
       <Jumbotron/>
-
-
-<SliderHome/>
 
         <BrowserRouter>
           <Switch>

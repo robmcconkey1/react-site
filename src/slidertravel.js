@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap'
 import travelj from './japancrossing1.jpg'
 import canterbury from './assets/canterbury1.jpg'
+import paris from './assets/EP1.jpg'
+import brooklyn from './assets/brooklyn.jpg'
 import './App.css'
 
 function SliderTravel() {
@@ -32,7 +34,7 @@ function SliderTravel() {
         <Carousel.Item>
           <img
             className=""
-              src={travelj}
+              src={paris}
             alt="Third slide"
           />
 
@@ -40,6 +42,17 @@ function SliderTravel() {
 
           </Carousel.Caption>
         </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className=""
+              src={brooklyn}
+            alt="second slide"
+          />
+          </Carousel.Item>
+
+
+
       </Carousel>
 )
 }

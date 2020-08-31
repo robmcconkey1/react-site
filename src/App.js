@@ -18,10 +18,6 @@ import SliderStreet from './sliderstreet.js'
 
 
 
-
-
-
-
   console.log(Street)
   class App extends Component {
 

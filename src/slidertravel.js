@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import {Carousel} from 'react-bootstrap'
 import travelj from './japancrossing1.jpg'
+import canterbury from './assets/canterbury1.jpg'
 import './App.css'
 
 function SliderTravel() {
@@ -10,7 +11,7 @@ function SliderTravel() {
         <Carousel.Item>
           <img
             className=""
-            src={travelj}
+            src={canterbury}
             alt="First slide"
           />
           <Carousel.Caption>

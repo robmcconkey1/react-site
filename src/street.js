@@ -10,5 +10,8 @@ export const Street = () => (
 
 <p> Hey there - welcome to the street page </p>
 <SliderStreet/>
+
+
+
  </div>
 )

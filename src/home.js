@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css'
 import SliderHomepage from './sliderhomepage.js'
+
+
+
+
 export const Home = () => (
   <div>
 <SliderHomepage/>

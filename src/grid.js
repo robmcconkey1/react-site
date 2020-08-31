@@ -1,33 +1,33 @@
-import React from 'react';
-import { render } from 'react-dom';
-import Gallery from 'react-grid-gallery';
+import React, {Component} from 'react'
+import JustifiedGrid from 'react-justified-grid'
+import image6 from './assets/resize3.1.jpg'
 
-const IMAGES =
-[{
-        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        isSelected: true,
-        caption: "After Rain (Jeshu John - designerspics.com)"
-},
-{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},
+class MyImageGallery extends Component {
+  return (
+    < JustifiedGrid
+      images={images}
+      rows={3}
+      maxRowHeight={64}
+      gutter={1}/>
+  );
+}
 
-{
-        src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-        thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-}]
 
-render(
-        <Gallery images={IMAGES}/>,
-        document.getElementById('example-0')
-);
+const imageList = [{
+  src: 'https://scontent.cdninstagram.com/vp/3fc240dca41408d36cc23f504fe1174e/5C66EC32/t51.2885-15/e35/s320x320/43817886_246662336018913_6991265436514516630_n.jpg',
+  width: 320,
+  height: 320
+}, {
+  src:{image6},
+  width: 320,
+  height: 167
+}, {
+  src:{image6},
+  width: 320,
+  height: 240
+}, {
+  src:{image6},
+  width: 320,
+  height: 400
+}];
+export default MyImageGallery

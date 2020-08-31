@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export const Weddings = () => (
   <div>
   <div ClassName='.myNavbar'>

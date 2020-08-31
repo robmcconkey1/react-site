@@ -11,7 +11,7 @@ export const Travel = () => (
 
 
 
-<h2> Hey there - welcome to the travel page. Enjoy the photos</h2>
+<h2> Hey there - welcome to the travel page. Enjoy the photos!</h2>
 <SliderTravel/>
 
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'
 import SliderHomepage from './sliderhomepage.js'
+import Card from './Card.js'
 
 
 
@@ -18,7 +19,7 @@ For enquiries please email
 
 </p>
 
-
-
+<p> </p>
+<Card/>
  </div>
 )

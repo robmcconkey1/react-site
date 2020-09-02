@@ -15,6 +15,7 @@ import SliderHome from './car'
 import SliderTravel from './slidertravel'
 import SliderHomepage from './sliderhomepage.js'
 import SliderStreet from './sliderstreet.js'
+import Card from './Card.js'
 
 
 
@@ -27,6 +28,7 @@ import SliderStreet from './sliderstreet.js'
 <Layout>
       <NavigationBar/>
       <Jumbotron/>
+
 
         <BrowserRouter>
           <Switch>

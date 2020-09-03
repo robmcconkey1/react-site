@@ -5,7 +5,7 @@ h1{
  font-family: 'Dr Sugiyama' ;
  font-weight: normal;
  font-size: 40px;
- margin:20px;
+ margin:0px;
  padding: 0px;
  transform: translate(-0%, 50%)
 
@@ -24,7 +24,7 @@ body {
  font-family: 'Homenaje', sans-serif;
  font-weight: normal;
  font-size: 18px;
- margin:30px
+ margin:0px
 }
 
 p {
@@ -32,7 +32,7 @@ p {
   font-family: 'Courier';
   font-weight: normal;
   font-size: 18px;
-  margin:30px;
+  margin:00px;
   padding: 0px;
   display: inline-block;
 }
@@ -137,7 +137,3 @@ h5 {
 position: relative;
  margin: auto;
     }
-
-ImageGridList {
-  width:1000px
-}

@@ -7,25 +7,24 @@ import CardParis from './Card.js'
 import CardLondon from './components/CardLondon'
 import CardNYC from './components/CardNYC'
 import ImageGridList from './components/gridlists'
-
+import FullWidthGrid from './components/grid'
 
 export const Street = () => (
   <div>
 
 
-
-
-<p> Hey there - welcome to the street page </p>
 <SliderStreet/>
 
 <br/>
 <br/>
 
-
-<CardParis />
-<CardLondon />
-<CardNYC />
 <ImageGridList />
+<br/>
+<br/>
+
+<FullWidthGrid />
+
+
 
 
  </div>

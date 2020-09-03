@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card'
+import ParisCard from './Card'
 
 
 export const Weddings = () => (

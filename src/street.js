@@ -3,6 +3,10 @@ import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
 import styled from 'styled-components';
 import SliderStreet from './sliderstreet.js'
 import Card from './Card.js'
+import CardParis from './Card.js'
+import CardLondon from './components/CardLondon'
+import CardNYC from './components/CardNYC'
+
 
 export const Street = () => (
   <div>
@@ -16,7 +20,10 @@ export const Street = () => (
 <br/>
 <br/>
 
-<Card />
+
+<CardParis />
+<CardLondon />
+<CardNYC />
 
  </div>
 )

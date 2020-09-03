@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link'
-import paris from './assets/EP1.jpg'
+import paris from '../assets/EP1.jpg'
 
 const useStyles = makeStyles({
   root: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
 });
 
- function CardParis() {
+ function CardNYC() {
   const classes = useStyles();
 
   return (
@@ -34,12 +34,12 @@ const useStyles = makeStyles({
           <Typography gutterBottom variant="h5" component="h2">
 
             <Link href="/" >
-               Paris
+               New York
              </Link>
 
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            The best way to plan a trip to Paris
+            The best way to plan a trip to New York
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -56,4 +56,4 @@ const useStyles = makeStyles({
 
 
 }
-export default CardParis
+export default CardNYC

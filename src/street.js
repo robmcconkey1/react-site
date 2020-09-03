@@ -6,6 +6,7 @@ import Card from './Card.js'
 import CardParis from './Card.js'
 import CardLondon from './components/CardLondon'
 import CardNYC from './components/CardNYC'
+import ImageGridList from './components/gridlist'
 
 
 export const Street = () => (
@@ -24,6 +25,7 @@ export const Street = () => (
 <CardParis />
 <CardLondon />
 <CardNYC />
+<ImageGridList />
 
  </div>
 )

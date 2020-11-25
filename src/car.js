@@ -10,8 +10,7 @@ function SliderHome() {
     return(
       <Carousel>
         <Carousel.Item>
-          <img
-            className=""
+          <img class="slide"
             src={image4}
             alt="First slide"
           />
@@ -20,8 +19,7 @@ function SliderHome() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className=""
+          <img class="slide"
               src={image5}
             alt="second slide"
           />
@@ -32,9 +30,9 @@ function SliderHome() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className=""
+            class="slide"
               src={image6}
-            alt="Third slide"
+            alt="fourth slide"
           />
 
           <Carousel.Caption>

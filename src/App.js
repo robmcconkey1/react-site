@@ -15,7 +15,8 @@ import SliderHome from './car'
 import SliderTravel from './slidertravel'
 import SliderHomepage from './sliderhomepage.js'
 import SliderStreet from './sliderstreet.js'
-import Card from './Card.js'
+import Newyork from './blog/Newyork.js'
+
 
 
 
@@ -27,22 +28,21 @@ import Card from './Card.js'
   render () {
     return (
       <React.Fragment>
-<Layout>
+
       <NavigationBar/>
       <Jumbotron/>
 
 
         <BrowserRouter>
           <Switch>
-
-
             <Route exact path="/" component ={Home} />
             <Route exact path="/street" component ={Street} />
             <Route exact path="/travel" component ={Travel} />
+            <Route exact path="/blog/Newyork" component ={Newyork} />
             </Switch>
 
         </BrowserRouter>
-  </Layout>
+
       </React.Fragment>
     )
   }

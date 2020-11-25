@@ -22,6 +22,7 @@ function Navbars() {
   <li><a href="src/weddings.js" >Weddings</a></li>
   <li><a href="https://www.instagram.com/rob_mcconkey/?hl=en" target="_blank">Instagram</a></li>
   <li><a href="contactme.html">Contact</a></li>
+  <li><a href="blog/Newyork.js">New York</a></li>
 </ul>
 </nav>
          </div>

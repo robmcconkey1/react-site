@@ -7,8 +7,9 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link'
-import paris from '../assets/EP1.jpg'
+import Link from '@material-ui/core/Link';
+import paris from '../assets/EP1.jpg';
+import brooklyn from '../assets/brooklyn.jpg'
 
 const useStyles = makeStyles({
   root: {
@@ -27,13 +28,13 @@ const useStyles = makeStyles({
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={paris}
-          title="Contemplative Reptile"
+          image={brooklyn}
+          title="New York"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
 
-            <Link href="/" >
+            <Link href="/blog/Newyork" >
                New York
              </Link>
 

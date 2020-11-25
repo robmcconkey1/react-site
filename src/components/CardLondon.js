@@ -8,7 +8,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link'
-import paris from '../assets/EP1.jpg'
+import travel14 from '../assets/travel14.jpg'
+
 
 const useStyles = makeStyles({
   root: {
@@ -27,7 +28,7 @@ const useStyles = makeStyles({
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={paris}
+          image={travel14}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -39,7 +40,7 @@ const useStyles = makeStyles({
 
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            The best way to plan a trip to Paris
+            The best way to plan a trip to London
           </Typography>
         </CardContent>
       </CardActionArea>

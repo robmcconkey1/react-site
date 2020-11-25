@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link'
-import paris from './assets/EP1.jpg'
+import paris from '../assets/EP1.jpg'
 
 const useStyles = makeStyles({
   root: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
 });
 
- function CardParis() {
+ function CardParis2() {
   const classes = useStyles();
 
   return (
@@ -56,4 +56,4 @@ const useStyles = makeStyles({
 
 
 }
-export default CardParis
+export default CardParis2

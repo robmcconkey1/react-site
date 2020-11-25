@@ -9,25 +9,16 @@ import CardNYC from './components/CardNYC'
 import ImageGridList from './components/gridlists'
 import FullWidthGrid from './components/grid'
 
+
 export const Street = () => (
   <div>
-
-
-<SliderStreet/>
-
-<br/>
-<br/>
+<br/><br/><br/><br/><br/>
+<FullWidthGrid />
+<br/><br/><br/><br/>
 
 <ImageGridList />
 <br/>
 <br/>
-
-<p> This is Mcconkey architects</p>
-
-<FullWidthGrid />
-
-
-
 
  </div>
 )

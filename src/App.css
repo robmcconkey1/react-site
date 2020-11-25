@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Homenaje&family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 h1{
  text-align: center;
@@ -130,10 +131,127 @@ h5 {
 
 
     img {
-       height: 500px;
+       height: 600px;
       width: 100%;
       object-fit: cover;
       object-position: bottom;
 position: relative;
  margin: auto;
+
     }
+
+    .slide {
+      height: 400px;
+     width: 100%;
+     object-fit: cover;
+     object-position: middle;
+position: relative;
+margin: auto;
+   }
+   @media (min-width: 581px) {
+    .slide {
+      width: 100%;
+      height: 600px;
+padding: 5px;
+    }
+  }
+  @media (min-width: 1181px) {
+    .slide {
+      height: 800px;
+padding: 5px;
+
+
+
+    }
+  }
+/*  Street carousel */
+
+  .street {
+    height: 400px;
+   width: 100%;
+   object-fit: fit;
+   object-position: middle;
+position: relative;
+margin: auto;
+ }
+ @media (min-width: 581px) {
+  .street {
+    width: 100%;
+    height: 600px;
+padding: 5px;
+  }
+}
+@media (min-width: 1181px) {
+  .street {
+    height: 800px;
+padding: 5px;
+  }
+}
+.intro{
+  text-align: center;
+  font-family: 'Abel' ;
+  font-weight: normal;
+  font-size: 20px;
+  margin:70px;
+  padding: 30px;
+  transform: translate(-0%, 0%);
+   color: #302f2f;
+   
+ }
+ @media (min-width: 581px) {
+  .intro {
+    text-align: center;
+    font-family: 'Abel' ;
+    font-weight: normal;
+    font-size: 20px;
+    margin:70px;
+    padding: 30px;
+    transform: translate(-0%, 0%);
+     color: #302f2f;
+     position: center;
+  }
+}
+@media (min-width: 1181px) {
+  .intro {
+    text-align: center;
+    font-family: 'Abel' ;
+    font-weight: normal;
+    font-size: 20px;
+    margin:70px;
+    padding: 30px;
+    transform: translate(-0%, 0%);
+     color: #302f2f;
+  }
+}
+ 
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #89A84F;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+  }
+ @media (min-width: 581px) {
+  .footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #89A84F;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 1181px) {
+  .footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #89A84F;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}

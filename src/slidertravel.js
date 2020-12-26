@@ -12,9 +12,7 @@ function SliderTravel() {
       <Carousel>
         <Carousel.Item>
           <img
-            className=""
-            src={canterbury}
-            alt="First slide"
+            className="" src={canterbury} alt="First slide"
           />
           <Carousel.Caption>
 

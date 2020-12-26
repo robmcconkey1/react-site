@@ -2,9 +2,8 @@ import React, {Component} from 'react'
 
 function Newyork() {
     return (
-        <p>Hello World </p>
+        <h1> New York </h1>
     )
    
 }
-
 export default Newyork 

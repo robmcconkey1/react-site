@@ -6,49 +6,9 @@ import image12 from './assets/travel12.jpg'
 const images = [
   {
     image: image4,
-  },
-  {
-    image: image12,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
+  }
+   
+
 
 ];
 const Container = styled.div`

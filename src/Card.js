@@ -28,12 +28,12 @@ const useStyles = makeStyles({
         <CardMedia
           className={classes.media}
           image={paris}
-          title="Contemplative Reptile"
+          title="Paris"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
 
-            <Link href="bbc.co.uk" >
+            <Link href="/blog/Newyork" >
                Paris
              </Link>
 

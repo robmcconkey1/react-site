@@ -16,11 +16,8 @@ import SliderTravel from './slidertravel'
 import SliderHomepage from './sliderhomepage.js'
 import SliderStreet from './sliderstreet.js'
 import Newyork from './blog/Newyork.js'
-
-
-
-
-
+import London from './blog/London.js'
+import Paris from './blog/Paris.js'
 
   console.log(Street)
   class App extends Component {
@@ -39,6 +36,8 @@ import Newyork from './blog/Newyork.js'
             <Route exact path="/street" component ={Street} />
             <Route exact path="/travel" component ={Travel} />
             <Route exact path="/blog/Newyork" component ={Newyork} />
+            <Route exact path="/blog/London" component ={London} />
+            <Route exact path="/blog/Paris" component ={Paris} />
             </Switch>
 
         </BrowserRouter>

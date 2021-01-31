@@ -19,36 +19,7 @@ const images = [
   {
     image: image4,
   },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
-  {
-    image: image4,
-  },
+  
 
 ];
 const Container = styled.div`

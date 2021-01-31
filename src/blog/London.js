@@ -5,6 +5,7 @@ import './bloggrid.css'
 import nh from '../assets/nottinghill2.jpg'
 import central from '../assets/central1.jpg'
 import shoreditch from '../assets/shoreditch1.jpg'
+import Bloggallery from './bloggallery';
 
 /* const body = styled.div`
 display: flex;
@@ -32,8 +33,16 @@ function Bloggrid(props) {
     return (
         <div>
         <h1>London</h1>
+
+            <p className= 'blogparagraph'>I've lived in London for 4 years and of course fell in love with the design, architecture and feel of London's various suburbs
+
+                Here's a little taste of some of my favourite street shots over the years. </p>
+
+                <div className= ''><Bloggallery/> </div> 
+
             <div className = 'grid'>
-          <Bloggrid name="Notting Hill" intro= "A colourful tour of West London's houses" imageSource={nh}/>
+            
+          <Bloggrid name="Notting Hill" intro= "A colourful tour of West London" imageSource={nh}/>
           <Bloggrid name="Central" intro= "The heart of the city" imageSource={central}/>
           <Bloggrid name="Shoreditch" intro= "A tour of London's urban side" imageSource={shoreditch}/>
           </div>

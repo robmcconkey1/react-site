@@ -19,7 +19,6 @@ function Navbars() {
  <li><a href="src/index.js" >Home</a></li>
  <li><a href="src/travel.js" >Travel</a></li>
   <li><a href="src/street.js" >Street</a></li>
-  <li><a href="src/weddings.js" >Weddings</a></li>
   <li><a href="https://www.instagram.com/rob_mcconkey/?hl=en" target="_blank">Instagram</a></li>
   <li><a href="contactme.html">Contact</a></li>
   <li><a href="/Newyork.js">New York</a></li>

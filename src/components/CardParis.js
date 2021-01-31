@@ -33,7 +33,7 @@ const useStyles = makeStyles({
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
 
-            <Link href="bbc.co.uk" >
+            <Link href="/blog/Paris" >
                Paris
              </Link>
 

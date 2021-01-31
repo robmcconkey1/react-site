@@ -11,10 +11,13 @@ import Footer from './footer'
 
 export const Home = () => (
   <div>
-<SliderHomepage/>
-<h2 class= "intro" >
 
-Enjoy the website. Please let me know if there are any images you would like to purchase.
+<ImageGridList />
+
+<h2 class= "intro" >
+  
+
+Enjoy the website. Please let me know if there are any images you would like to purchase...
 <br/>
 For enquiries please email
 
@@ -23,8 +26,9 @@ For enquiries please email
 </h2>
 
 <p> </p>
-<ImageGridList />
+
 
 <Footer/>
  </div>
 )
+/* <SliderHomepage/> */

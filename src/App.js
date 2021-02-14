@@ -8,7 +8,7 @@ import {NavigationBar} from './components/navigationbar.js'
 import {Home} from './home'
 import {Street} from './street'
 import {Travel} from './travel.js'
-import {Weddings} from './weddings'
+import {Store} from './store'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import {Jumbotron} from './components/jumbotron'
 import SliderHome from './car'
@@ -18,6 +18,9 @@ import SliderStreet from './sliderstreet.js'
 import Newyork from './blog/Newyork.js'
 import London from './blog/London.js'
 import Paris from './blog/Paris.js'
+import Payment from './payment'
+import ContactUs from './sendpayment'
+
 
   console.log(Street)
   class App extends Component {
@@ -35,9 +38,11 @@ import Paris from './blog/Paris.js'
             <Route exact path="/" component ={Home} />
             <Route exact path="/street" component ={Street} />
             <Route exact path="/travel" component ={Travel} />
+            <Route exact path="/store" component ={ Store } />
             <Route exact path="/blog/Newyork" component ={Newyork} />
             <Route exact path="/blog/London" component ={London} />
             <Route exact path="/blog/Paris" component ={Paris} />
+            <Route exact path="/sendpayment" component ={ContactUs} />
             </Switch>
 
         </BrowserRouter>

@@ -17,7 +17,7 @@ export const NavigationBar = () => (
   <Nav.Item><NavLink href="/"> Home </NavLink> </Nav.Item>
 <Nav.Item><NavLink href="/travel"> Travel </NavLink> </Nav.Item>
 <Nav.Item><NavLink href="/street"> Street </NavLink> </Nav.Item>
-<Nav.Item><NavLink href="/weddings"> Weddings </NavLink> </Nav.Item>
+<Nav.Item><NavLink href="/store"> Store </NavLink> </Nav.Item>
 <Nav.Item><NavLink href="https://www.instagram.com/rob_mcconkey/?hl=en" target="_blank"> Instagram </NavLink> </Nav.Item>
 <NavDropdown title="Cities" id="basic-nav-dropdown">
         <NavDropdown.Item href="/blog/Newyork">New York</NavDropdown.Item>

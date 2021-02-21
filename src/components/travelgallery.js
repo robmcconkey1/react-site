@@ -3,30 +3,44 @@ import styled from 'styled-components';
 import EP1 from '../assets/EP1.jpg'
 import image12 from '../assets/travel12.jpg'
 import image14 from '../assets/travel14.jpg'
-import central1 from '../assets/central1.jpg'
-import steam from '../assets/travel4-4.jpg'
-import tophat from '../assets/resize1.1-3.jpg'
-import shoreditch from '../assets/shoreditch1.jpg'
+import nyc1 from '../assets/nyc1.jpg';
+import nyc2 from '../assets/nyc2.jpg';
+import nyc4 from '../assets/nyc4.jpg'
+import vietnam from '../assets/vietnam.png'
+import italy from '../assets/italy.png'
+import edin from '../assets/edin1.png'
+import canterbury1 from '../assets/canterbury1.jpg'
+
 
 const images = [
   {
     image: EP1, 
   },
   {
-    image: image14,
+    image: nyc1,
+  },
+  {
+    image: vietnam,
   },
   {
     image: image14,
   },
   {
-    image: image14,
+    image: image12,
   },
   {
-    image: image14,
+    image: nyc4,
   },
   {
-    image: image14,
+    image: italy,
   },
+  {
+    image: edin,
+  },
+  {
+    image: canterbury1,
+  },
+  
    
 
 

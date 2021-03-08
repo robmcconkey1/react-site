@@ -20,14 +20,26 @@ import London from './blog/London.js'
 import Paris from './blog/Paris.js'
 import Payment from './payment'
 import ContactUs from './sendpayment'
+import TagManager from 'react-gtm-module'
+import ReactGA from 'react-ga';
+
+
 
 
   console.log(Street)
-  class App extends Component {
+  class App extends Component 
 
+{
+  
+  
+   
   render () {
+    ReactGA.initialize('UA-175162023-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <React.Fragment>
+
+        
 
       <NavigationBar/>
       <Jumbotron/>

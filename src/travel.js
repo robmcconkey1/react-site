@@ -4,6 +4,11 @@ import styled from 'styled-components';
 import './blog/bloggrid.css'
 import Bloggallery from './blog/bloggallery';
 import Travelgallery from './components/travelgallery';
+import TagManager from 'react-gtm-module'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-175162023-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 function Bloggrid(props) {

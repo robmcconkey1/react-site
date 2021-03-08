@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import index from './index.php'
+import './App.css'
 
 class Payment extends React.Component {
   

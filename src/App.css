@@ -255,3 +255,32 @@ padding: 5px;
     width: 100%;
   }
 }
+
+
+.payment{
+  
+  width: 300px;
+  position: center;
+  text-align: center;
+  margin: 0 auto;
+  
+
+}
+@media (min-width: 581px) {
+.payment {
+  
+  width: 700px;
+  position: center;
+  text-align: center;
+  margin: 0 auto
+}
+}
+@media (min-width: 1181px) {
+.payment {
+ 
+  width: 800px;
+  position: center;
+  text-align: center;
+  margin: 0 auto
+}
+}

@@ -20,6 +20,7 @@ import London from './blog/London.js'
 import Paris from './blog/Paris.js'
 import Payment from './payment'
 import ContactUs from './sendpayment'
+import Router from 'react-router'
 import TagManager from 'react-gtm-module'
 import ReactGA from 'react-ga';
 
@@ -36,6 +37,17 @@ import ReactGA from 'react-ga';
   render () {
     ReactGA.initialize('UA-175162023-1');
   ReactGA.pageview(window.location.pathname + window.location.search);
+  const tagManagerArgs = {
+    gtmId: 'GTM-PK5RWFL',
+    dataLayer: {
+      userId: '001',
+      userProject: 'project',
+      
+  }
+}
+
+TagManager.initialize(tagManagerArgs)
+
     return (
       <React.Fragment>
 

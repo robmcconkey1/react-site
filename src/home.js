@@ -6,14 +6,13 @@ import ImageGridList from './components/gridlists'
 import Footer from './footer'
 import TagManager from 'react-gtm-module'
 import ReactGA from 'react-ga';
+import Payment from './payment'
 
 
 
 ReactGA.initialize('UA-175162023-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
  
-
-
 const tagManagerArgs = {
     gtmId: 'GTM-PK5RWFL'
 }
@@ -22,25 +21,13 @@ TagManager.initialize(tagManagerArgs)
 
 
 export const Home = () => (
-  <div>
+<div>
+    <ImageGridList />
 
-<ImageGridList />
-
-<h2 class= "intro" >
-  
-
-Enjoy the website. Please let me know if there are any images you would like to purchase...
-<br/>
-For enquiries please email
-
-<a href="mailto:robmcconkeyphotos@gmail.com"> robmcconkeyphotos@gmail.com </a>
-
-</h2>
-
-<p> </p>
-
-
-<Footer/>
+      <payment> <Payment/> </payment>
+ 
+        <Footer/>
  </div>
+
 )
-/* <SliderHomepage/> */
+

@@ -8,13 +8,18 @@ import Parisgallery from './blog/parisgallery';
 import nh from './assets/nottinghill2.jpg'
 import central from './assets/central1.jpg'
 import shoreditch from './assets/shoreditch1.jpg'
+import TagManager from 'react-gtm-module'
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-175162023-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+ 
 
 function Bloggrid(props) {
   console.log(props)
   return (
       <div class= 'card'>
-  <h1>{props.name}</h1> <br/><br/>
+  <h1>{props.name}</h1> 
   {props.intro}
   <img className = 'blogimage' src= {props.imageSource}/>
   <a href='/sendpayment' className= ".card Button"> Buy now </a>

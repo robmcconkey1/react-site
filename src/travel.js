@@ -27,7 +27,7 @@ function Bloggrid(props) {
   export function Travel() {
     return (
         <div>
-        <h1>Travel</h1>
+        <h1>Travel </h1>
 
             <p className= 'blogparagraph'>Enjoy the collection of travel shots taken over the past few years </p>
 
